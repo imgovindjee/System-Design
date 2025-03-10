@@ -1,0 +1,15 @@
+User should know the internal implementation (External Uses)
+For eg:
+    1. turn on FRIDGE
+        - could contains many steps but USER SHOULD ONLY NEED TO CONNECT IT TO POWER SUPPLY
+    2. "CTRL + C" for "copy", here USER SHOULDN'T BOTHER ABOUT HOW IT IS INTERNAL IMPLEMENTED
+
+
+
+PROBLEM FROM ABOVE "Problem"
+A. UNDO/REDO Functionality
+    - if we implement this functionality then how it can be handle.
+B. DIFFICULT IN CODE MAINTENANCE
+    - What if in future, we have to support more command for more device eg. BULB, FRIDGE, etc
+C. LACK OF ABSTRACTION
+    - Today turnOnAC is simple but if there are more steps, clients has to be aware of that, which is not good
