@@ -30,7 +30,11 @@
       <option name="IGNORE_JAVADOC_PERIOD" value="true" />
       <option name="IGNORE_DUPLICATED_THROWS" value="false" />
       <option name="IGNORE_POINT_TO_ITSELF" value="false" />
+<<<<<<< HEAD
       <option name="myAdditionalJavadocTags" value="AllArgsConstructor,GETTER,Boolean,show,Show,Constructor,Screen,Seat,NotNull,booking,theatre,STRING,String,Cab,default,list,Trip,DOUBLE,Rider" />
+=======
+      <option name="myAdditionalJavadocTags" value="AllArgsConstructor,GETTER,Boolean,show,Show,Constructor,Screen,Seat,NotNull,booking,theatre,STRING,String,Cab,default,list,Trip,DOUBLE,Rider,Private,BOOLEAN" />
+>>>>>>> 8a2ae60 (Update System Pattern)
     </inspection_tool>
   </profile>
 </component>
